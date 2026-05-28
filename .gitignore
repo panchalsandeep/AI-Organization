@@ -8,3 +8,6 @@ coverage
 .vercel
 .env*
 venv
+.next
+__pycache__/
+*.py[cod]
