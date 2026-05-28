@@ -5,3 +5,6 @@ dist
 build
 coverage
 .supabase
+.vercel
+.env*
+venv

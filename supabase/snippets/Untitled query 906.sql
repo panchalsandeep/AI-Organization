@@ -1,0 +1,1 @@
+drop function if exists match_operational_memory(vector, int);
