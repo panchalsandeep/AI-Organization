@@ -12,3 +12,4 @@ SUPABASE_SERVICE_ROLE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
 AWS_REGION = os.getenv("AWS_REGION")
 
 DATABASE_URL = os.getenv("DATABASE_URL")
+SECRET_KEY = os.getenv("SECRET_KEY", "replace-this-secret-with-env-value")

@@ -23,7 +23,17 @@ export default function Home() {
         <ul>
           <li><code>POST /agent/query</code></li>
           <li><code>POST /workflow/execute</code></li>
+          <li><code>POST /auth/token</code></li>
+          <li><code>POST /admin/tenant</code></li>
         </ul>
+      </section>
+
+      <section className="card">
+        <h2>Admin Console</h2>
+        <p>Manage tenants and governance settings in the admin console.</p>
+        <Link href="/admin">
+          <button>Open Admin Console</button>
+        </Link>
       </section>
     </main>
   );
